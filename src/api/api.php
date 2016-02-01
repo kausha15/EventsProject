@@ -2,7 +2,7 @@
 //error_reporting(E_ALL);
 //ini_set('display_errors', true);
 
-include_once "../connection/db_connect.php";
+//include_once "../connection/db_connect.php";
 include_once "../action/action_event.php";
 include_once "../lib/Rest.php";
 include_once "../lib/Json.php";
