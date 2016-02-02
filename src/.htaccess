@@ -1,8 +1,16 @@
 <IfModule mod_rewrite.c>
+<<<<<<< HEAD
     RewriteEngine On
 
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^/api/(.*)$ /api/redirect.php?request=$1 [QSA,NC,L]
 
+=======
+   RewriteEngine On
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^/api/(.*)$ /api/index.php?request=$1 [QSA,NC,L]
+>>>>>>> c4ec7912c75eab89df7b1220d26081f77a148ce7
 </IfModule>
