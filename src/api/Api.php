@@ -16,7 +16,7 @@ class Api extends Rest
         $this->today = date('Y-m-d H:i:s');
     }
 
-    protected function fetchAllEvents(){
+    protected function fetchAllDBEvents(){
         if($this->method == 'POST'){
             return fetch_all_events($this->db_name);
         }else{
@@ -32,4 +32,13 @@ class Api extends Rest
             return "Only Accepts POST Requests";
         }
     }
+
+    protected function fetchAllEvents(){
+        if($this->method == 'POST'){
+            return fetch_all_static_events($this->db_name);
+        }else{
+            return "Only Accepts POST Requests";
+        }
+    }
+
 }
