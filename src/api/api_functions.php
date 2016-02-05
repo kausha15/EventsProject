@@ -22,8 +22,8 @@ function single_event_detail($databse, $eventId){
     return $json->getJson();
 }
 
-function fetch_all_static_events($databse){
-    $json = new \lib\Json(JSON_STATUS_ERROR, "Invalid page provided");
+function fetch_all_static_events(){
+    $json = new \libs\Json(JSON_STATUS_ERROR, "Invalid page provided");
     $events_arr = array(
         '0' => array(
             'name'=> 'Falls Festival',
@@ -32,7 +32,8 @@ function fetch_all_static_events($databse){
             'end'=>'01 Jan 2017',
             'Fees'=>0,
             'image'=>'images/FallsFestival.jpg',
-            'image_url'=>'https://www.muzenly.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/2/0/20151230144708thumbnail.jpg'
+//            'image_url'=>'https://www.muzenly.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/2/0/20151230144708thumbnail.jpg'
+            'image_url'=>'http://static1.squarespace.com/static/54186e3de4b0c5351787d951/t/56672095df40f3e879f83402/1449599126299/lights_events_1366x768_68503.jpg?format=1500w'
         ),
         '1'=> array(
             'name'=> 'Big Mountain Music Festival',
@@ -41,7 +42,8 @@ function fetch_all_static_events($databse){
             'end'=>'20 Dec 2016',
             'Fees'=>500,
             'image'=>'images/BigMountain.jpg',
-            'image_url'=>'https://www.muzenly.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/2/0/20151228124652thumbnail.jpg'
+//            'image_url'=>'https://www.muzenly.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/2/0/20151228124652thumbnail.jpg'
+            'image_url'=>'http://www.bay15.in/images/events-1.jpg'
         ),
         '2'=> array(
             'name'=> 'ZoukOut Festival',
@@ -50,7 +52,8 @@ function fetch_all_static_events($databse){
             'end'=>'12 Dec 2016',
             'Fees'=>1500,
             'image'=>'images/ZoukOut.jpg',
-            'image_url'=>'https://www.muzenly.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/2/0/20151228070537thumbnail.jpg'
+//            'image_url'=>'https://www.muzenly.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/2/0/20151228070537thumbnail.jpg'
+            'image_url'=>'https://lvs.luxury/wp-content/uploads/2015/05/IMG_1266Porche-event.jpg'
         ),
         '3'=> array(
             'name'=> 'Djakarta Warehouse Project',
@@ -59,7 +62,8 @@ function fetch_all_static_events($databse){
             'end'=>'12 Dec 2016',
             'Fees'=>2000,
             'image'=>'images/Djakarta.jpg',
-            'image_url'=>'https://www.muzenly.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/2/0/20151230091248thumbnail.jpg'
+//            'image_url'=>'https://www.muzenly.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/2/0/20151230091248thumbnail.jpg'
+            'image_url'=>'http://www.dvs.de/uploads/pics/dvs_events.jpg'
         ),
         '4'=> array(
             'name'=> 'Hornbill',
@@ -68,7 +72,8 @@ function fetch_all_static_events($databse){
             'end'=>'07 Dec 2016',
             'Fees'=>1000,
             'image'=>'images/Hornbill.jpg',
-            'image_url'=>'https://www.muzenly.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/2/0/20151215065953thumbnail.jpg'
+//            'image_url'=>'https://www.muzenly.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/2/0/20151215065953thumbnail.jpg'
+            'image_url'=>'http://tickets4allevents.in/wp-content/uploads/2016/01/events.jpg'
         ),
         '5'=> array(
             'name'=> 'Streosonic',
@@ -77,7 +82,8 @@ function fetch_all_static_events($databse){
             'end'=>'06 Dec 2016',
             'Fees'=>1000,
             'image'=>'images/Hornbill.jpg',
-            'image_url'=>'https://www.muzenly.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/2/0/20151230151706thumbnail.jpg'
+//            'image_url'=>'https://www.muzenly.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/2/0/20151230151706thumbnail.jpg'
+            'image_url'=>'http://tickets4allevents.in/wp-content/uploads/2016/01/events.jpg'
         )
     );
 

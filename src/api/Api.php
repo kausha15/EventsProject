@@ -34,11 +34,11 @@ class Api extends Rest
     }
 
     protected function fetchAllEvents(){
-//        if($this->method == 'POST'){
-            return fetch_all_static_events($this->db_name);
-//        }else{
-//            return "Only Accepts POST Requests";
-//        }
+        if($this->method == 'POST'){
+            return fetch_all_static_events();
+        }else{
+            return "Only Accepts POST Requests";
+        }
     }
 
 }

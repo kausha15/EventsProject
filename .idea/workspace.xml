@@ -24,19 +24,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Api.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Api.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/api/Api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="29" selection-start="996" selection-end="996" vertical-scroll-proportion="-13.555555" vertical-offset="300" max-vertical-offset="882">
+            <state line="34" column="0" selection-start="888" selection-end="888" vertical-scroll-proportion="0.8666667" vertical-offset="300" max-vertical-offset="882">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api_functions.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="api_functions.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/api/api_functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="806" selection-end="3555" vertical-scroll-proportion="0.7659575" vertical-offset="0" max-vertical-offset="564">
+            <state line="22" column="1" selection-start="804" selection-end="804" vertical-scroll-proportion="-14.666667" vertical-offset="0" max-vertical-offset="540">
               <folding>
                 <element signature="n#fetch_all_static_events#0;n#!!top" expanded="false" />
               </folding>
@@ -81,6 +81,7 @@
         <option value="$PROJECT_DIR$/src/api/.htaccess" />
         <option value="$PROJECT_DIR$/src/.htaccess" />
         <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/src/api/Api.php" />
       </list>
     </option>
   </component>
@@ -267,7 +268,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -506,19 +507,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/Api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="29" selection-start="996" selection-end="996" vertical-scroll-proportion="-13.555555" vertical-offset="300" max-vertical-offset="882">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/api/api_functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="806" selection-end="3555" vertical-scroll-proportion="0.7659575" vertical-offset="0" max-vertical-offset="564">
+        <state line="22" column="1" selection-start="804" selection-end="804" vertical-scroll-proportion="-14.666667" vertical-offset="0" max-vertical-offset="540">
           <folding>
             <element signature="n#fetch_all_static_events#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/Api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="888" selection-end="888" vertical-scroll-proportion="0.8666667" vertical-offset="300" max-vertical-offset="882">
+          <folding />
         </state>
       </provider>
     </entry>
